@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const IMAGES = [
-    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2128&auto=format&fit=crop"
+    "https://images.pexels.com/photos/35858657/pexels-photo-35858657.jpeg?_gl=1*1fl5wjl*_ga*MjA5NTM5NDYwOS4xNzY5MTUzNDk3*_ga_8JE65Q40S6*czE3Njk1MjY4NTYkbzIkZzEkdDE3Njk1MjcwMzkkajQ1JGwwJGgw",
+    "https://i.pinimg.com/736x/f9/15/cf/f915cfa9ba1340ebcb6d1c9a26042523.jpg",
+    "https://i.pinimg.com/736x/f0/2d/5f/f02d5fb09f8fb554d2c59ff6d54a88ab.jpg"
 ];
 
 const About: React.FC = () => {
@@ -53,8 +53,8 @@ const About: React.FC = () => {
 
                     <div className="w-full lg:w-1/2 space-y-8">
                         <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter text-black dark:text-white leading-[0.85]">
-                            Architecting <br />
-                            <span className="text-zinc-200 dark:text-zinc-800">The Future.</span>
+                            About<br />
+                            <span className="text-zinc-200 dark:text-zinc-800">Me.</span>
                         </h2>
                         <div className="space-y-6 text-zinc-600 dark:text-zinc-400">
                             <p className="text-lg md:text-xl font-medium leading-relaxed">

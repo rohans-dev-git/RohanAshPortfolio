@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from './components/About';
+
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -24,7 +26,9 @@ const App: React.FC = () => {
     <main className="relative min-h-screen bg-[#f8f9fa] dark:bg-navy-950 transition-colors duration-500 text-black dark:text-primary">
       <Header isDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
       <Hero />
+      <About />
       <Projects />
+
       <Skills />
       <Experience />
       <Contact />

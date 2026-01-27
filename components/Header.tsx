@@ -11,6 +11,7 @@ interface Props {
 const Header: React.FC<Props> = ({ isDark, toggleTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const navLinks = [
+    { name: 'About', href: '#about' },
     { name: 'Portfolio', href: '#projects' },
     { name: 'Skills', href: '#skills' },
     { name: 'Corporate', href: '#experience' },
